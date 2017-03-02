@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ChatList {
+  max-height: 300px;
+  overflow: auto;
+  max-width: 1000px;
+}
+
+.ChatMessage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ChatMessage-text {
+  margin-left: 20px
+}
+
+.ChatInput {
+  margin-top: 20px
+}
